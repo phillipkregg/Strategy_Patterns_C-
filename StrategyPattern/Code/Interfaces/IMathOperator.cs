@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace StrategyPattern
 {
-	class Program
+	public interface IMathOperator
 	{
-		static void Main(string[] args)
-		{
-		}
+		int Operation(int a, int b);
 	}
 }
